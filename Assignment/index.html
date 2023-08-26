@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body {
+    margin: 0;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items:center; 
+    }
+  .car-container {
+    position: relative;
+    width: 100%; 
+    height: 150px;
+    overflow: hidden; 
+  }
+  .car {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px; 
+    height: 150px; 
+    animation: moveCar 10s linear infinite; 
+    transform-origin: bottom center; 
+  }
+  .car img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @keyframes moveCar {
+    0% {
+    transform: rotateY(0deg);
+    left: -100px;
+  }
+  50% {
+    transform: rotateY(0deg);
+    left: 100%;
+  }
+  51% {
+    transform: rotateY(180deg);
+    left: calc(100% + 100px);
+  }
+  100% {
+    transform: rotateY(180deg);
+    left: -100px;
+     }
+   }
+  h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:blue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  } 
+  .btn-style {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn-style:hover {
+    background-color: #45a049;
+  }
+</style>
+<title>Turning Car</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cars World!</h1>
+        <a href="index.html" class="btn-style">Home</a>
+        <a href="cars.html" class="btn-style">Cars</a>
+        <a href="racecar.html" class="btn-style">Racing Cars</a>
+      </header>
+  <div class="car-container">
+    <div class="car">
+      <img src="car.jpg" alt="Car">
+    </div>
+  </div>
+</body>
+</html>
