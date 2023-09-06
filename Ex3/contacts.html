@@ -97,9 +97,14 @@
         const name = document.getElementById("name").value;
         const email = document.getElementById("email").value;
         const message = document.getElementById("message").value;
+        if(name=="" || email== "" || message== ""){
+            alert("Please fill in all the fields");
+        }
+        else{
         alert("Thank you for contacting us!");
      // Clear the form
         contactForm.reset();
+        }
     }
     </script>
 </head>
