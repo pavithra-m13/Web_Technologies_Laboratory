@@ -1,0 +1,116 @@
+
+<web-app>
+    
+
+    <servlet>
+        <servlet-name>session</servlet-name>
+        <servlet-class>session</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>session</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>session1</servlet-name>
+        <servlet-class>session1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>session1</servlet-name>
+        <url-pattern>/session1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>cookie1</servlet-name>
+        <servlet-class>cookie1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>cookie1</servlet-name>
+        <url-pattern>/cookie1</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>cookie2</servlet-name>
+        <servlet-class>cookie2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>cookie2</servlet-name>
+        <url-pattern>/cookie2</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>url1</servlet-name>
+        <servlet-class>url1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>url1</servlet-name>
+        <url-pattern>/url1</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>url2</servlet-name>
+        <servlet-class>url2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>url2</servlet-name>
+        <url-pattern>/url2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>hidden1</servlet-name>
+        <servlet-class>hidden1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>hidden1</servlet-name>
+        <url-pattern>/hidden1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>hidden2</servlet-name>
+        <servlet-class>hidden2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>hidden2</servlet-name>
+        <url-pattern>/hidden2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>payment</servlet-name>
+        <servlet-class>payment</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>payment</servlet-name>
+        <url-pattern>/payment</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>recipe</servlet-name>
+        <servlet-class>recipe</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>recipe</servlet-name>
+        <url-pattern>/recipe</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>password</servlet-name>
+        <servlet-class>password</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>password</servlet-name>
+        <url-pattern>/password</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
