@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fruitsCatalog>
+    <fruit>
+        <name>Apple</name>
+        <color>Red</color>
+        <taste>Sweet</taste>
+        <price>100</price>
+    </fruit>
+    <fruit>
+        <name>Banana</name>
+        <color>Yellow</color>
+        <taste>Sweet</taste>
+        <price>75</price>
+    </fruit>
+    <fruit>
+        <name>Orange</name>
+        <color>Orange</color>
+        <taste>Citrusy</taste>
+        <price>125</price>
+    </fruit>
+    <fruit>
+        <name>Grapes</name>
+        <color>Purple</color>
+        <taste>Sweet</taste>
+        <price>150</price>
+    </fruit>
+    <fruit>
+        <name>Strawberry</name>
+        <color>Red</color>
+        <taste>Sweet</taste>
+        <price>180</price>
+    </fruit>
+    <fruit>
+        <name>Pineapple</name>
+        <color>Yellow</color>
+        <taste>Tangy</taste>
+        <price>95</price>
+    </fruit>
+</fruitsCatalog>
